@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="20180912-gjm" />
+		<title>中国专利信息中心CAPNT</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/jquery.skippr.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<style type="text/css">
+			.div {
+                position: relative;
+                width: 50px;
+                height: 86.6px;
+                margin: 50px auto;
+                background-color: #00468c;
+                transform: rotate(90deg);
+            }
+            .div:before {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                right:50px;
+                border-width: 43.3px 25px;
+                border-style: solid;
+                border-color: transparent #00468c transparent transparent;
+            }
+            .div:after {
+                content: '';
+                display: block;
+                position: absolute;
+                width: 0;
+                height: 0;
+                left:50px;
+                border-width: 43.3px 25px;
+                border-style: solid;
+                border-color: transparent transparent transparent #00468c;
+                top:0;
+            }
+		</style>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="header-content">
+				<div class="header-enter">
+					<div class="header-enter-input">
+						<input />
+						<span><img src="img/search.png"/></span>
+					</div>
+					<p><a>邮箱入口</a></p>
+					<p><a>ENGLISH</a></p>
+					<p><a>联系我们</a></p>
+				</div>
+				<div class="header-logo">
+					<img src="img/logo.png" />
+				</div>
+				<div class="header-advantage">
+					<p class="backblue"></p>
+					<p data-id = "0"><img src="img/h2.png"/><span>数据优势</span></p>
+					<p data-id = "190"><img src="img/h3.png"/><span>团队优势</span></p>
+					<p data-id = "380"><img src="img/h1.png"/><span>服务优势</span></p>
+				</div>
+			</div>
+		</div>
+		<!--内容-->
+		<div class="content">
+			<div class="content-header">
+				<div class="content-header-nav">
+					<p><img src="img/pen.png"/></p>
+					<ul>
+						<li><a>中心简介</a></li>
+						<li><a>新闻资讯</a></li>
+						<li><a>产品与服务</a>
+							<ul>
+								<li><a>产品</a></li>
+								<li><a>服务</a></li>
+							</ul>
+						</li>
+						<li><a>人才招聘</a>
+							<ul>
+								<li><a>职位</a></li>
+								<li><a>其他信息</a></li>
+							</ul>
+						</li>
+						<li><a>在线咨询</a></li>
+						<li><a>知识园地</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content-view">
+				<div class="lunbo">
+					<div id="skippr">
+				        <img src="img/balloon.jpg" />
+				        <img src="img/tech.jpg" />
+				        <img src="img/balloon.jpg" />
+				    </div>
+				</div>
+				<div class="service">
+					<div class="service-title">
+						<p>Service Platform</p>
+						<p>服务平台</p>
+					</div>
+					<div class="service-options">
+						<!--<div class="div"></div>-->
+						<div class="option"><div class="option-img"><img src="img/sp1.png"/><p>英汉翻译</p></div></div>
+						<div class="option"><div class="option-img"><img src="img/sp2.png"/><p>汉英翻译</p></div></div>
+						<div class="option"><div class="option-img"><img src="img/sp3.png"/><p>CPRS国际平台</p></div></div>
+						<div class="option"><div class="option-img"><img src="img/sp4.png"/><p>专利检索</p></div></div>
+					</div>
+				</div>
+			</div>
+			<div class="content-solutions">
+				<div class="solutions-title">
+					<p>Solutions</p>
+					<p>产品与服务</p>
+					<div class="dashed-r"></div>
+					<div class="dashed-l"></div>
+				</div>
+				<div class="solutions-content">
+					<div class="info-box pop" id="pop1"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>02</p><img src="img/so1.png"/></div>
+					<div class="info-box pop" id="pop2"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>04</p><img src="img/so2.png"/></div>
+					<div class="info-box pop" id="pop3"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>01</p><img src="img/so3.png"/></div>
+					<div class="info-box pop" id="pop4"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>03</p><img src="img/so4.png"/></div>
+					<div class="info-box pop" id="pop5"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>05</p><img src="img/so5.png"/></div>
+					<div class="info-box pop" id="pop6"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>07</p><img src="img/so6.png"/></div>
+					<div class="info-box solutions-logo"><img src="img/logo-big_03.png" /></div>
+					<div class="info-box lc"><p>08</p><img src="img/so7.png"/></div>
+					<div class="info-box pop" id="pop7"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>06</p><img src="img/so8.png"/></div>
+					<div class="info-box pop" id="pop8"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc dif"><img src="img/ditu2.png"/><img src="img/so10.png"/></div>
+					<div class="info-box pop" id="pop9"><p>专利权质押融资服务平台</p><div class="hide-text"><i>以地方知识产权管理部门为服务对象，实现对区域专利权质押融资服务工作的有效组织和管理。平台集成多地区成功业务经验模式，对致力提升区域专利质押...</i><button class="btn">查看详情</button></div></div>
+					<div class="info-box lc"><p>09</p><img src="img/so9.png"/></div>
+				</div>
+				<div class="bj">
+					<img src="img/bj.png" />
+				</div>
+				<div class="solutions-footer">
+					<img src="img/soback1.png" />
+					<p>以满足客户需求为主旨</p>
+					<p>以知识产权大数据为基础</p>
+					<p>以新一代知识产权服务运营商为己任，为广大用户提供知识产权信息化建设、<br/>
+					系统运维与保障、数据加工与翻译、专利检索与咨询、知识产权运营等全产业链服务。</p>
+				</div>
+			</div>
+			<div class="content-data">
+				<div class="data-title">
+					<p>Data</p>
+					<p>专利数据</p>
+					<div class="dashed-r"></div>
+					<div class="dashed-l"></div>
+				</div>
+				<div class="data-content">
+					<div class="content-img">
+						<div style="width: 100%;height: 200px;">
+							<div class="resp-div data1"><p>138000</p><span></span><span></span></div>
+							<div class="resp-div data2"><p>138000</p><span></span><span></span></div>
+							<div class="resp-div data3"><p>138000</p><span></span><span></span></div>
+							<div class="resp-div data4"><p>138000</p><span></span><span></span></div>
+							<div class="resp-div data5"><p>138000</p><span></span><span></span></div>
+							<div class="resp-div data6"><p>138000</p><span></span><span></span></div>
+						</div>
+						<div style="width: 100%;height: 135px;">
+							<ul>
+								<li class="data-text1">专利数据</li>
+								<li class="data-text2">专利数据</li>
+								<li class="data-text3">专利数据</li>
+								<li class="data-text4">专利数据</li>
+								<li class="data-text5">专利数据</li>
+								<li class="data-text6">专利数据</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-news">
+				<div class="news-title">
+					<p>News</p>
+					<p>新闻资讯</p>
+					<div class="dashed-r"></div>
+					<div class="dashed-l"></div>
+				</div>
+				<div class="news-content">
+					<div class="news-img fl">
+						<img src="img/xinwen.png" />
+					</div>
+					<div class="news-items fl">
+						<div class="onenews">
+							<img src="img/xinwen1.png" />
+							<h3>第十一次知识产权五局合作局长系列会议在美国召开</h3>
+							<p>当地时间6月13日至14日，第十一次知识产权五局合作局长系列会议在美国新奥尔良召开</p>
+							<div class="enter-btn fr">
+								<img src="img/jiantouyou.png"/>
+							</div>
+						</div>
+					</div>
+					<div class="news-items fl">
+						<div class="onenews">
+							<img src="img/xinwen2.png" />
+							<h3>第十一次知识产权五局合作局长系列会议在美国召开</h3>
+							<p>当地时间6月13日至14日，第十一次知识产权五局合作局长系列会议在美国新奥尔良召开</p>
+							<div class="enter-btn fr">
+								<img src="img/jiantouyou.png"/>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="content-qa">
+				<div class="qa-items fl">
+					<div class="qa-title">
+						<p>Q&A</p>
+						<p>在线咨询</p>
+						<div class="dashed-r dashed-short"></div>
+						<div class="dashed-l dashed-short"></div>
+					</div>
+					<ul>
+						<li>办公室党支部关于开展创先争优活动指导</li>
+						<li>办公室党支部关于开展创先争优活动指导</li>
+						<li>办公室党支部关于开展创先争优活动指导</li>
+					</ul>
+				</div>
+				<div class="qa-items fl middle"><img src="img/qa.png"/></div>
+				<div class="qa-items fl">
+					<div class="question">
+						<img src="img/zixun.png" />
+						<p>我要咨询</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--尾部-->
+		<div class="footer">
+			<div class="footer-link">
+				<div class="fl">
+					<div class="link-logo">
+						<img src="img/lianxi2.png" />
+						<img src="img/lianxi1.png" />
+					</div>
+					<div class="phonenum">
+						<div class="fl">
+							<p>知识产权维权</p>
+							<p>12330</p>
+						</div>
+						<div class="fl">
+							<p>客服中心</p>
+							<p>61073107</p>
+						</div>
+					</div>
+				</div>
+				<div class="fr">
+					<div class="link-title">
+						<p>Links</p>
+						<p>链接</p>
+					</div>
+					<div class="links">
+						<a>国家知识产权局</a>&nbsp;&nbsp;
+						<a>国家知识产权战略网</a>&nbsp;&nbsp;
+						<a>人民网知识产权频道</a>&nbsp;&nbsp;
+						<a>中国保护知识产权网</a>
+					</div>
+					<div class="link-more">
+						<div class="more-l">
+							<div class="more">
+								<span>地方知识产权局</span><div class="jiantou"></div>
+							</div>
+							<ul>
+								<li>河北知识产权局</li>
+								<li>上海知识产权局</li>
+								<li>天津知识产权局</li>
+								<li>山东知识产权局</li>
+							</ul>
+						</div>
+						<div class="more-r">
+							<div class="more">
+								<span>国外知识产权网站</span><div class="jiantou"></div>
+							</div>
+							<ul>
+								<li>美国知识产权局</li>
+								<li>俄罗斯知识产权局</li>
+								<li>日本知识产权局</li>
+								<li>韩国知识产权局</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-content">
+				<div class="fl">
+					<img src="img/logo-mini.png" />
+					<div class="content-info">
+						<span><a>联系我们</a></span>&nbsp;|&nbsp;<span><a>网站地图</a></span>&nbsp;|&nbsp;<span><a>版权声明</a></span>
+						<p><span>主办单位：国家知识产权局中国专利信息中心</span>&nbsp;|&nbsp;<span>网站管理：中国专利信息中心办公室</span></p>
+						<p>版权所有：中国专利信息中心  未经许可不得复制</p>
+						<p>ICP备案编号：京ICP备07504448号</p>
+					</div>
+				</div>
+				<div class="fr">
+					<img src="img/erweima.png" />
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.skippr.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+</html>
